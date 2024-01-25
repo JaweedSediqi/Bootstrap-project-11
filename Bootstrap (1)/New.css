@@ -1,0 +1,76 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#home {
+    padding-top: 30px;
+    background-image: linear-gradient(rgb(224, 81, 10), rgb(255, 1, 99)) !important;
+    width: 100%;
+    min-height: 700px;
+}
+
+.c:hover {
+    background-image: linear-gradient(rgb(255, 93, 11), rgb(255, 0, 0));
+    color: aliceblue !important;
+
+}
+
+.bbb {
+    background-image: linear-gradient(rgb(212, 77, 18), rgb(205, 28, 28));
+
+}
+
+.bbb:hover {
+    background-image: linear-gradient(rgb(255, 93, 11), rgb(255, 0, 0));
+    transform: translateY(-6%);
+    transition: all 1s;
+}
+
+.myimg {
+    border-radius: 50%;
+    animation: king 1.5s linear infinite;
+}
+
+@keyframes king {
+    100% {
+        transform: translateY(-1%);
+    }
+}
+
+.img-class {
+    transform: rotate(-350deg);
+}
+
+.fs-5 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.card:hover {
+    border-top: 2px solid rgb(255, 0, 85);
+    transform: scale(1.001);
+
+}
+
+#section2 {
+    min-height:800px ;
+    background-image: linear-gradient(rgb(224, 81, 10), rgb(255, 1, 99)) !important;
+}
+.mycard:hover{
+    background-image: linear-gradient(rgb(121, 21, 69), rgb(242, 0, 149));
+}
+#section3{
+    min-height:600px ;
+}
+.bn{
+    background-image: linear-gradient(rgb(121, 21, 69), rgb(242, 0, 149));
+    color: white!important;;
+}
+#section-end{
+    min-height:500px ;
+}
+textarea{
+    resize: none;
+}
